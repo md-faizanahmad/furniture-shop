@@ -9,7 +9,7 @@ export function CategoryBar() {
   return (
     <div className="w-full  border-b bg-white">
       <div className="container  mx-auto px-4 py-4">
-        <div className="flex   items-center justify-start gap-8 overflow-x-auto no-scrollbar pb-2">
+        <div className="flex  lg:ms-25 items-center justify-start gap-8 overflow-x-auto no-scrollbar pb-2">
           {CATEGORIES.map((cat) => (
             <Link
               key={cat.name}
