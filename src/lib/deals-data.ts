@@ -16,7 +16,7 @@ export const DEALS_PRODUCTS = [
     price: 850,
     originalPrice: 1100,
     image:
-      "https://images.unsplash.com/photo-1617806118233-18e1db207fa6?q=80&w=600",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=600",
     discount: "25% OFF",
   },
   {
@@ -26,7 +26,7 @@ export const DEALS_PRODUCTS = [
     price: 900,
     originalPrice: 1200,
     image:
-      "https://images.unsplash.com/photo-1505691938895-1758d7eaa511?q=80&w=600",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=600",
     discount: "Sale",
   },
   {
