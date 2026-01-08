@@ -26,8 +26,7 @@ export function MaterialLab() {
                 className="absolute inset-0 rounded-[4rem] overflow-hidden shadow-2xl"
               >
                 <Image
-                  height={100}
-                  width={100}
+                  fill
                   src={activeSwatch.textureUrl}
                   className="w-full h-full object-cover"
                   alt={activeSwatch.name}
@@ -81,8 +80,7 @@ export function MaterialLab() {
                       style={{ backgroundColor: swatch.color }}
                     >
                       <Image
-                        width={100}
-                        height={100}
+                        fill
                         src={swatch.textureUrl}
                         className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity"
                         alt=""

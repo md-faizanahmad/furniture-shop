@@ -16,13 +16,14 @@ import { Button } from "@/components/ui/button";
 const footerLinks = {
   shop: [
     { name: "All Collections", href: "/collections" },
-    { name: "Living Room", href: "/category/living" },
+    { name: "Living Room", href: "/category/living-room" },
     { name: "Bedroom", href: "/category/bedroom" },
     { name: "Office", href: "/category/office" },
-    { name: "New Arrivals", href: "/new" },
+    { name: "New Arrivals", href: "/collection" },
   ],
   support: [
     { name: "Order Tracking", href: "/track" },
+    { name: "B2B Export & Logistics", href: "/b2b-export-logistics" },
     { name: "Shipping Policy", href: "/shipping" },
     { name: "Returns & Exchanges", href: "/returns" },
     { name: "FAQs", href: "/faq" },

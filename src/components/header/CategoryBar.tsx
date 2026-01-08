@@ -21,8 +21,7 @@ export function CategoryBar() {
                 className="relative h-16 w-16 overflow-hidden rounded-full border-2 border-transparent group-hover:border-stone-900 transition-all shadow-sm"
               >
                 <Image
-                  width={100}
-                  height={100}
+                  fill
                   src={cat.image}
                   alt={cat.name}
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"

@@ -9,8 +9,7 @@ export default function BookingPage() {
         <div className="absolute inset-0 opacity-40">
           <div className="absolute inset-0 bg-linear-to-b from-transparent to-[#0C0C0C] z-10" />
           <Image
-            width={100}
-            height={100}
+            fill
             src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2000"
             className="w-full h-full object-cover"
             alt="Office Architecture"

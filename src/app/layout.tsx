@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Home-Studio",
+  title: "LUMEN-STUDIO",
   description: "Modern Furniture Shop",
 };
 <Script src="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fasthand&display=swap" />;

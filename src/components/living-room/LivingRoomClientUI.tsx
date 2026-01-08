@@ -122,8 +122,7 @@ function StorySection({
             className="relative aspect-4/5 rounded-[4rem] overflow-hidden shadow-2xl"
           >
             <Image
-              width={100}
-              height={100}
+              fill
               src={image}
               className="w-full h-full object-cover scale-110"
               alt={title}

@@ -12,8 +12,7 @@ export const MATERIAL_SWATCHES: Swatch[] = [
     id: "teak",
     name: "CP Teak Wood",
     color: "#8B4513",
-    textureUrl:
-      "https://unsplash.com/photos/photo-of-brown-wood-slab-xzPMUMDDsfk",
+    textureUrl: "https://images.unsplash.com/photo-1457964121122-e7f8269faed3",
     description:
       "Sustainably sourced from Central Province. Known for its high oil content and golden-brown grain.",
     origin: "Madhya Pradesh, India",
@@ -33,7 +32,7 @@ export const MATERIAL_SWATCHES: Swatch[] = [
     name: "Makrana White",
     color: "#E5E4E2",
     textureUrl:
-      "https://images.unsplash.com/photo-1588612191544-71286c071720?q=80&w=800",
+      "https://images.unsplash.com/photo-1724918082801-0b51b2f6e879?q=80&w=2022",
     description:
       "The world's finest marble. Non-porous with a translucent crystalline structure.",
     origin: "Rajasthan, India",
