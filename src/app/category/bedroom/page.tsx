@@ -1,4 +1,5 @@
 import { BedroomClientUI } from "@/components/bedroom/BedRoomClientUI";
+import { SleepExperienceUI } from "@/components/bedroom/SleepExperienceUI";
 import { MaterialLab } from "@/components/living-room/MaterialLab"; // Reuse your material lab
 import { Metadata } from "next";
 import Image from "next/image";
@@ -11,12 +12,12 @@ export const metadata: Metadata = {
 
 export default function BedroomPage() {
   return (
-    <main className="bg-[#FAF9F6] overflow-hidden">
+    <main className="bg-[#FAF9F6] overflow-hidden ">
       {/* 1. Ethereal Hero Header */}
       <section className="relative h-screen w-full flex items-center justify-center bg-stone-100">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1505691938895-1758d7eaa511?q=80&w=2000"
+            src="https://images.unsplash.com/photo-1760067537740-faa11f7bdf1e?"
             fill
             priority
             className="object-cover opacity-80"
@@ -42,6 +43,7 @@ export default function BedroomPage() {
 
       {/* 3. Specialized Material Focus (Hardwoods & Linens) */}
       <MaterialLab />
+      <SleepExperienceUI />
     </main>
   );
 }

@@ -71,8 +71,7 @@ export const COLLECTIONS_DATA: Collection[] = [
         id: "bd1",
         name: "Nizam King Bed",
         price: "1,10,000",
-        image:
-          "https://images.unsplash.com/photo-1505691938895-1758d7eaa511?q=80&w=800",
+        image: "https://images.unsplash.com/photo-1668512624222-2e375314be39",
         category: "Beds",
         material: "Teak Wood",
       },
@@ -89,8 +88,7 @@ export const COLLECTIONS_DATA: Collection[] = [
         id: "dk1",
         name: "Heritage 6-Seater",
         price: "95,000",
-        image:
-          "https://images.unsplash.com/photo-1617806118233-18e1db207062?q=80&w=800",
+        image: "https://images.unsplash.com/photo-1664997432996-010bbf13efbc",
         category: "Dining",
         material: "Rosewood",
       },
