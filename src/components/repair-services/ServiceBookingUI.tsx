@@ -220,3 +220,5 @@ export function ServiceBookingUI() {
     </div>
   );
 }
+
+export default ServiceBookingUI;

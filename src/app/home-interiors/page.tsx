@@ -1,5 +1,5 @@
+import InteriorClientUI from "@/components/home-Interior/InteriorClientUI";
 import { INTERIOR_SCENES } from "@/lib/interiors-data";
-import InteriorClientUI from "@/pages/home-Interior/InteriorClientUI";
 
 // This is a Server Component by default
 export default function HomeInteriorsPage() {

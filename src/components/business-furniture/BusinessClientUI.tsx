@@ -12,9 +12,9 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { BusinessCategory } from "@/lib/business-data";
-import { BusinessCTA } from "./BusinessCTA";
 import { BusinessHero } from "./BusinessHero";
 import { ProjectStats } from "./ProjectStats";
+import { BusinessCTA } from "./BusinessCTA";
 
 export default function BusinessClientUI({
   categories,

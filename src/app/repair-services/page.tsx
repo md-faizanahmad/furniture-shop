@@ -1,4 +1,4 @@
-import { ServiceBookingUI } from "@/pages/repair-services/ServiceBookingUI";
+import ServiceBookingUI from "@/components/repair-services/ServiceBookingUI";
 import Image from "next/image";
 
 export default function BookingPage() {

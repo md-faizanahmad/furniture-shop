@@ -1,5 +1,5 @@
+import BusinessClientUI from "@/components/business-furniture/BusinessClientUI";
 import { BUSINESS_CATEGORIES } from "@/lib/business-data";
-import BusinessClientUI from "@/pages/business-furniture/BusinessClientUI";
 
 export const metadata = {
   title: "Business Solutions | LUMEN STUDIO",

@@ -29,7 +29,7 @@ export function BusinessCTA() {
             />
           </motion.div>
           {/* Enhanced Gradient Overlay */}
-          <div className="absolute inset-0 bg-linear-to-r from-stone-900 via-stone-900/90 to-transparent opacity-90 transition-opacity group-hover:opacity-95" />
+          <div className="absolute inset-0 bg-gradient-to-r from-stone-900 via-stone-900/90 to-transparent opacity-90 transition-opacity group-hover:opacity-95" />
         </div>
 
         {/* 2. Content Area with Parallax-style Motion */}

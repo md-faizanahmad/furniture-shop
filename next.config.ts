@@ -8,6 +8,16 @@ const nextConfig: NextConfig = {
         hostname: "images.unsplash.com",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "unsplash.com", // Often used for Unsplash+ images
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "upload.wikimedia.org", // Useful for logos/flags
+        pathname: "**",
+      },
     ],
   },
 };
