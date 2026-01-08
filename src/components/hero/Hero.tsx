@@ -14,6 +14,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { HERO_SLIDES } from "@/lib/hero-data";
+import { LogoMarquee } from "@/shared/LogoMarquee";
 
 export function Hero() {
   const plugin = React.useRef(
@@ -95,6 +96,7 @@ export function Hero() {
           <CarouselNext className="right-4 lg:right-8 h-12 w-12 border-none bg-white/20 backdrop-blur-md text-white hover:bg-white hover:text-stone-900 transition-all" />
         </div>
       </Carousel>
+      <LogoMarquee />
     </section>
   );
 }
