@@ -39,6 +39,7 @@ export function BedroomClientUI() {
         >
           <Image
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src="https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=1200"
             className="w-full h-full object-cover"
             alt="Solid Wood Bed Frame"

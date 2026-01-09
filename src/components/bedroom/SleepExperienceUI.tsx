@@ -45,6 +45,7 @@ export function SleepExperienceUI() {
                 src={MATTRESS_LAYERS[activeIdx].img}
                 alt="Mattress Layer"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover pointer-events-none" // Prevent image ghosting while dragging
                 priority
               />

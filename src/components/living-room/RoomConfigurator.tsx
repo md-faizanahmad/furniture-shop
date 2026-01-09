@@ -62,6 +62,7 @@ export function RoomConfigurator() {
                     src={currentMood.image}
                     alt={currentMood.name}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className={cn(
                       "object-cover transition-all duration-1000",
                       isDayMode

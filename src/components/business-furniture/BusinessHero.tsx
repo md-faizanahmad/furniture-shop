@@ -20,6 +20,7 @@ export function BusinessHero() {
             src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2000"
             alt="Executive Boardroom"
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             priority
             className="object-cover opacity-40 lg:opacity-100 grayscale hover:grayscale-0 transition-all duration-1000"
           />

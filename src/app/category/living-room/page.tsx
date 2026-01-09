@@ -19,6 +19,7 @@ export default function LivingRoomPage() {
           <Image
             src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000"
             fill // Changed from height/width to fill for hero sections
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             priority // Loads this image first for better LCP
             className="object-cover opacity-60"
             alt="Living Room Atmosphere"

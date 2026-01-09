@@ -27,6 +27,7 @@ export function MaterialLab() {
               >
                 <Image
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   src={activeSwatch.textureUrl}
                   className="w-full h-full object-cover"
                   alt={activeSwatch.name}
@@ -81,6 +82,7 @@ export function MaterialLab() {
                     >
                       <Image
                         fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         src={swatch.textureUrl}
                         className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity"
                         alt=""

@@ -21,6 +21,7 @@ export default function OfficePage() {
           <Image
             src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2000"
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             priority
             className="object-cover opacity-40 grayscale-[0.5]"
             alt="Executive Office Environment"

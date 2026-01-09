@@ -17,8 +17,9 @@ export default function BedroomPage() {
       <section className="relative h-screen w-full flex items-center justify-center bg-stone-100">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1760067537740-faa11f7bdf1e?"
+            src="https://images.unsplash.com/photo-1560635921-171138a3955e?q=80&w=2070"
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             priority
             className="object-cover opacity-80"
             alt="Serene Bedroom Environment"

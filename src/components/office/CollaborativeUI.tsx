@@ -59,6 +59,7 @@ export function CollaborativeUI() {
         >
           <Image
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200"
             className="w-full h-full object-cover"
             alt="Brainstorming Session"
@@ -72,6 +73,7 @@ export function CollaborativeUI() {
           >
             <Image
               fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200"
               className="w-full h-full object-cover"
               alt="Modular Pods"

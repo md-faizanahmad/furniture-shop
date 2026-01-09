@@ -15,6 +15,7 @@ export function OfficeClientUI() {
               fill
               className="object-cover"
               alt="Modern Desk System"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
             <div className="absolute inset-0 bg-stone-900/10" />
           </div>

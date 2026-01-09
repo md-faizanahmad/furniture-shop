@@ -12,7 +12,8 @@ export const MATERIAL_SWATCHES: Swatch[] = [
     id: "teak",
     name: "CP Teak Wood",
     color: "#8B4513",
-    textureUrl: "https://images.unsplash.com/photo-1457964121122-e7f8269faed3",
+    textureUrl:
+      "https://images.unsplash.com/photo-1457964121122-e7f8269faed3?q=80&w=800",
     description:
       "Sustainably sourced from Central Province. Known for its high oil content and golden-brown grain.",
     origin: "Madhya Pradesh, India",

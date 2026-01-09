@@ -37,6 +37,7 @@ export default function InteriorClientUI({
             src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000"
             alt="Interior Hero"
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             priority
             className="object-cover brightness-[0.65]"
           />
@@ -118,6 +119,7 @@ function SceneItem({ scene, index }: { scene: InteriorScene; index: number }) {
           src={scene.image}
           alt={scene.title}
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="object-cover transition-transform duration-1000 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-stone-900/5 group-hover:bg-transparent transition-colors duration-500" />

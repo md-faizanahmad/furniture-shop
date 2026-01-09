@@ -25,11 +25,12 @@ export function BusinessCTA() {
               src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=2069"
               alt="Modern Office"
               fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="object-cover"
             />
           </motion.div>
           {/* Enhanced Gradient Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-stone-900 via-stone-900/90 to-transparent opacity-90 transition-opacity group-hover:opacity-95" />
+          <div className="absolute inset-0 bg-linear-to-r from-stone-900 via-stone-900/90 to-transparent opacity-90 transition-opacity group-hover:opacity-95" />
         </div>
 
         {/* 2. Content Area with Parallax-style Motion */}

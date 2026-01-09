@@ -29,6 +29,7 @@ export function AcousticShield() {
                   <Image
                     src={ACOUSTIC_LAYERS[activeTab].image}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover grayscale"
                     alt="Acoustic Material"
                   />
