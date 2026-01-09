@@ -71,7 +71,7 @@ export function BulbScience() {
           </div>
 
           {/* Visual Side */}
-          <div className="relative aspect-square w-full max-w-[300px] md:max-w-md mx-auto order-1 lg:order-2 flex items-center justify-center">
+          <div className="relative aspect-square w-full max-w-75 md:max-w-md mx-auto order-1 lg:order-2 flex items-center justify-center">
             {/* Animated Spectrum Circle */}
             <div className="absolute inset-0 rounded-full border border-stone-800/50 animate-[spin_30s_linear_infinite]" />
             <div className="absolute inset-4 rounded-full border border-dashed border-stone-800/30 animate-[spin_20s_linear_infinite_reverse]" />

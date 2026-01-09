@@ -1,8 +1,10 @@
 import { BulbScience } from "@/components/lighting/BulbScience";
+import { CRIComparison } from "@/components/lighting/CRIComparison";
 import { LightingGrid } from "@/components/lighting/LightingGrid";
 import { LightingHero } from "@/components/lighting/LightingHero";
 import { LightLayering } from "@/components/lighting/LightLayering";
 import { ShadowStudio } from "@/components/lighting/ShadowStudio";
+import { SmartIntegration } from "@/components/lighting/SmartIntegration";
 
 export default function LightingPage() {
   return (
@@ -21,6 +23,8 @@ export default function LightingPage() {
         <BulbScience />
       </div>
       <ShadowStudio />
+      <CRIComparison />
+      <SmartIntegration />
     </main>
   );
 }

@@ -15,7 +15,7 @@ export function MaterialLab() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row gap-20 items-center">
           {/* 1. TEXTURE DISPLAY (Large Preview) */}
-          <div className="flex-1 relative w-full aspect-square lg:aspect-4/5">
+          <div className="flex-1 relative w-full aspect-square lg:aspect-4/5 rounded-[4rem] overflow-hidden shadow-2xl bg-stone-800">
             <AnimatePresence mode="wait">
               <motion.div
                 key={activeSwatch.id}
@@ -23,23 +23,23 @@ export function MaterialLab() {
                 animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
                 exit={{ opacity: 0, scale: 0.95, filter: "blur(10px)" }}
                 transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-                className="absolute inset-0 rounded-[4rem] overflow-hidden shadow-2xl"
+                className="absolute inset-0"
               >
                 <Image
                   fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  priority // Added priority for SEO and LCP performance
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   src={activeSwatch.textureUrl}
-                  className="w-full h-full object-cover"
-                  alt={activeSwatch.name}
+                  className="object-cover"
+                  alt={`Close up texture of ${activeSwatch.name}`}
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent" />
 
-                {/* Micro-label */}
                 <div className="absolute bottom-10 left-10 space-y-2">
                   <span className="text-[10px] font-bold uppercase tracking-[0.4em] text-stone-400">
                     Provenance
                   </span>
-                  <p className="text-xl font-serif italic">
+                  <p className="text-xl font-serif italic text-white">
                     {activeSwatch.origin}
                   </p>
                 </div>
@@ -61,38 +61,41 @@ export function MaterialLab() {
               </h2>
             </div>
 
-            <div className="flex gap-6">
+            <div className="flex flex-wrap gap-4 md:gap-6">
               {MATERIAL_SWATCHES.map((swatch) => (
                 <button
                   key={swatch.id}
                   onClick={() => setActiveSwatch(swatch)}
                   className="relative group focus:outline-none"
+                  aria-label={`Select ${swatch.name} material`}
                 >
                   <motion.div
                     animate={{
                       scale: activeSwatch.id === swatch.id ? 1.1 : 1,
+                      // Fixed: Animating to rgba(0,0,0,0) instead of "transparent"
                       borderColor:
-                        activeSwatch.id === swatch.id ? "#fff" : "transparent",
+                        activeSwatch.id === swatch.id
+                          ? "rgba(255, 255, 255, 1)"
+                          : "rgba(255, 255, 255, 0)",
                     }}
-                    className="h-16 w-16 md:h-20 md:w-20 rounded-2xl border-2 p-1 transition-all"
+                    transition={{ duration: 0.3 }}
+                    className="relative h-16 w-16 md:h-20 md:w-20 rounded-2xl border-2 p-1 bg-stone-800 overflow-hidden"
                   >
-                    <div
-                      className="w-full h-full rounded-xl overflow-hidden shadow-inner"
-                      style={{ backgroundColor: swatch.color }}
-                    >
+                    <div className="relative w-full h-full rounded-xl overflow-hidden shadow-inner bg-stone-700">
                       <Image
                         fill
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        sizes="80px" // Optimized size for swatches
                         src={swatch.textureUrl}
-                        className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity"
-                        alt=""
+                        className="object-cover opacity-60 group-hover:opacity-100 transition-opacity"
+                        alt="" // Decorative image
                       />
                     </div>
                   </motion.div>
+
                   {activeSwatch.id === swatch.id && (
                     <motion.div
                       layoutId="activeDot"
-                      className="h-1.5 w-1.5 bg-white rounded-full mx-auto mt-4"
+                      className="relative h-1.5 w-1.5 bg-white rounded-full mx-auto mt-4"
                     />
                   )}
                 </button>
@@ -105,7 +108,8 @@ export function MaterialLab() {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
-                className="space-y-6 max-w-md"
+                transition={{ duration: 0.4 }}
+                className="space-y-6 max-w-md relative"
               >
                 <h4 className="text-2xl font-medium tracking-tight">
                   {activeSwatch.name}

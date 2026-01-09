@@ -11,7 +11,7 @@ export function OfficeClientUI() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
           <div className="lg:col-span-7 relative aspect-video rounded-[2rem] overflow-hidden shadow-2xl order-2 lg:order-1">
             <Image
-              src="https://images.unsplash.com/photo-1703355685952-03ed19f70f51"
+              src="https://images.unsplash.com/photo-1626714128639-a3afe69882f0"
               fill
               className="object-cover"
               alt="Modern Desk System"
