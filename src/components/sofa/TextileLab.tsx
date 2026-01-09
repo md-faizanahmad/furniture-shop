@@ -16,8 +16,8 @@ export function TextileLab() {
             className="w-full h-full"
           >
             <Image
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               fill
-              sizes=""
               src="https://images.unsplash.com/photo-1519961655809-34fa156820ff"
               className="w-full h-full object-cover"
               alt="Close up of Bouclé Fabric"

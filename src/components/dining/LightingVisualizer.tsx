@@ -31,6 +31,7 @@ export function LightingVisualizer() {
                 >
                   <Image
                     src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?q=80&w=1200"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     fill
                     className="object-cover"
                     alt="Dining Room Lighting"

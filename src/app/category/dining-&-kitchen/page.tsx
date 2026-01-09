@@ -20,6 +20,7 @@ export default function DiningPage() {
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1505409628601-edc9af17fda6?q=80&w=2070&auto=format&fit=crop"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             fill
             priority
             className="object-cover"

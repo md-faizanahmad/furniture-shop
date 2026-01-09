@@ -71,7 +71,7 @@ export function LivingRoomClientUI() {
               name: "Halo Pendant",
               price: "28,500",
               image:
-                "https://images.unsplash.com/photo-1543198126-a4514324a308?q=80&w=800",
+                "https://images.unsplash.com/photo-1578490343589-ec110a8694b5",
               category: "Atmospheric Lighting",
               material: "Hand-blown Glass",
             }}
@@ -122,6 +122,7 @@ function StorySection({
             className="relative aspect-4/5 rounded-[4rem] overflow-hidden shadow-2xl"
           >
             <Image
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               fill
               src={image}
               className="w-full h-full object-cover scale-110"

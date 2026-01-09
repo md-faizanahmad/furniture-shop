@@ -67,6 +67,7 @@ export function CRIComparison() {
               <div className="absolute inset-0">
                 <Image
                   src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   fill
                   className="object-cover"
                   alt="High CRI"
@@ -80,6 +81,7 @@ export function CRIComparison() {
               >
                 <Image
                   src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   fill
                   className="object-cover grayscale-[0.3] brightness-[0.8] saturate-[0.4]"
                   alt="Low CRI"

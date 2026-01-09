@@ -28,8 +28,8 @@ export function UpholsteryConfigurator() {
                 >
                   {/* Macro Texture underlying the sofa shape */}
                   <Image
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     fill
-                    sizes=""
                     src={activeFabric.texture}
                     className="w-full h-full object-cover opacity-20 mix-blend-multiply"
                     alt="Fabric Texture"
@@ -96,9 +96,9 @@ export function UpholsteryConfigurator() {
                     style={{ backgroundColor: fabric.hex }}
                   >
                     <Image
-                      alt=""
+                      alt="fabric-texture"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       fill
-                      sizes=""
                       src={fabric.texture}
                       className="w-full h-full object-cover opacity-40 mix-blend-multiply"
                     />

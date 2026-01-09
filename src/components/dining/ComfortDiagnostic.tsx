@@ -29,6 +29,7 @@ export function ComfortDiagnostic() {
                   <Image
                     src="https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=1000"
                     alt="Chair Ergonomics"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     fill
                     className="object-contain grayscale mix-blend-multiply opacity-80"
                   />

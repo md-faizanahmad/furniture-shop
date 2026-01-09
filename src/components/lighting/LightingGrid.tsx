@@ -43,6 +43,7 @@ export function LightingGrid() {
               <Image
                 src={light.img}
                 alt={light.name}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 fill
                 className="object-cover opacity-80 transition-all duration-700 group-hover:scale-110 group-hover:opacity-100"
               />

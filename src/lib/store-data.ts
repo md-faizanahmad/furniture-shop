@@ -157,8 +157,7 @@ export const COLLECTIONS_DATA: Collection[] = [
         id: "lt1",
         name: "Halo Chandelier",
         price: "45,000",
-        image:
-          "https://images.unsplash.com/photo-1543198126-a4514324a308?q=80&w=800",
+        image: "https://images.unsplash.com/photo-1578490343589-ec110a8694b5",
         category: "Lighting",
         material: "Gold Plated",
       },

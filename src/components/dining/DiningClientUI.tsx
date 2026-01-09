@@ -48,8 +48,8 @@ export function DiningClientUI() {
                 className="absolute inset-0"
               >
                 <Image
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   fill
-                  sizes=""
                   src="https://images.unsplash.com/photo-1505409628601-edc9af17fda6?q=80&w=2070&auto=format&fit=crop"
                   className="w-full h-full object-cover grayscale-[0.2]"
                   alt="Dining Table Detail"
@@ -117,8 +117,8 @@ function KitchenCard({ title, img, icon: Icon }: KitchenCardProps) {
       className="relative aspect-3/4 rounded-[3rem] overflow-hidden group"
     >
       <Image
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         fill
-        sizes=""
         src={img}
         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
         alt={title}

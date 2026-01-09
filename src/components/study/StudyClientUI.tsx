@@ -32,6 +32,7 @@ export function StudyClientUI() {
           <div className="lg:col-span-6 relative aspect-square rounded-[4rem] overflow-hidden shadow-2xl">
             <Image
               src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               fill
               className="object-cover"
               alt="The Writer's Desk"
@@ -94,6 +95,7 @@ export function StudyClientUI() {
           <div className="aspect-4/5 relative rounded-[3rem] overflow-hidden">
             <Image
               src="https://images.unsplash.com/photo-1526887593587-a307ea5d46b4"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               fill
               className="object-cover"
               alt="Detail 1"
@@ -102,6 +104,7 @@ export function StudyClientUI() {
           <div className="aspect-4/5 relative rounded-[3rem] overflow-hidden md:mt-12">
             <Image
               src="https://images.unsplash.com/photo-1531668720450-39cf1563fab9"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               fill
               className="object-cover"
               alt="Detail 2"

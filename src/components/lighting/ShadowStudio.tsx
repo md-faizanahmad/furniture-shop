@@ -108,8 +108,8 @@ export function ShadowStudio() {
               className="relative w-64 h-64 rounded-3xl overflow-hidden z-10"
             >
               <Image
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 fill
-                sizes=""
                 src={activeMat.img}
                 className="w-full h-full object-cover grayscale-[0.2]"
                 alt="Material"

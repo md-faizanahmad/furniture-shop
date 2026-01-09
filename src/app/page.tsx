@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-10">
       <Hero />
+
       <FeaturedCategories />
       <DealsOfTheWeek />
       {/* Product sections will go here */}

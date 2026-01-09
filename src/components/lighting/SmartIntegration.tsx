@@ -59,7 +59,7 @@ export function SmartIntegration() {
             </AnimatePresence>
 
             {/* The "Device" - Uses max-width and aspect ratio for responsiveness */}
-            <div className="relative z-10 w-full max-w-70 md:max-w-[320px] aspect-9/19 bg-stone-900 rounded-[2.5rem] md:rounded-[3rem] p-3 md:p-4 shadow-2xl border-[6px] md:border-[8px] border-stone-800">
+            <div className="relative z-10 w-full max-w-70 md:max-w-[320px] aspect-9/19 bg-stone-900 rounded-[2.5rem] md:rounded-[3rem] p-3 md:p-4 shadow-2xl border-[6px] md:border-8 border-stone-800">
               <div className="h-full w-full bg-stone-950 rounded-[1.8rem] md:rounded-[2.2rem] overflow-hidden p-5 md:p-6 space-y-6 md:space-y-8 flex flex-col">
                 <div className="flex justify-between items-center pt-2">
                   <div className="h-1.5 w-10 bg-stone-800 rounded-full" />
@@ -176,7 +176,13 @@ export function SmartIntegration() {
   );
 }
 
-function Feature({ icon: Icon, title, desc }) {
+interface FeatureProps {
+  icon: React.ComponentType<{ className: string }>;
+  title: string;
+  desc: string;
+}
+
+function Feature({ icon: Icon, title, desc }: FeatureProps) {
   return (
     <div className="space-y-3">
       <div className="h-10 w-10 bg-stone-50 rounded-xl flex items-center justify-center border border-stone-100">

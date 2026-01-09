@@ -19,7 +19,7 @@ const footerLinks = {
     { name: "Living Room", href: "/category/living-room" },
     { name: "Bedroom", href: "/category/bedroom" },
     { name: "Office", href: "/category/office" },
-    { name: "New Arrivals", href: "/collection" },
+    { name: "New Arrivals", href: "category/new-arrivals" },
   ],
   support: [
     { name: "Order Tracking", href: "/track" },

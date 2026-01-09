@@ -17,6 +17,7 @@ export function SleepExperience() {
       <div className="absolute inset-0 z-0">
         <Image
           src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=2000"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           fill
           className={cn(
             "object-cover transition-all duration-1000",
@@ -82,6 +83,7 @@ export function SleepExperience() {
                 >
                   <Image
                     src="https://images.unsplash.com/photo-1647376036543-f9f543601a1d"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     fill
                     className="object-cover"
                     alt="Mattress Exterior"

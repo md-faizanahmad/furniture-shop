@@ -79,6 +79,7 @@ export function StorageGrid() {
               <Image
                 src={item.img}
                 alt={item.name}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 fill
                 className="object-cover transition-transform duration-1000 group-hover:scale-105 group-hover:rotate-1"
               />
@@ -112,6 +113,6 @@ export function StorageGrid() {
 }
 
 // Utility to merge classes
-function cn(...inputs: any[]) {
+function cn(...inputs: unknown[]) {
   return inputs.filter(Boolean).join(" ");
 }

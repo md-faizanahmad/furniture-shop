@@ -223,18 +223,21 @@ const Header = () => {
             <Search className="h-5 w-5" />
           </Button>
 
-          <Button
-            variant="ghost"
-            size="icon"
-            className="hidden sm:flex text-stone-600"
-          >
-            <Store className="h-5 w-5" />
-          </Button>
+          <Link href="/stores">
+            <Button
+              variant="ghost"
+              size="icon"
+              className="hidden sm:flex text-stone-600"
+            >
+              <Store className="h-5 w-5" />
+            </Button>
+          </Link>
 
-          <Button variant="ghost" size="icon" className="text-stone-600">
-            <User className="h-5 w-5" />
-          </Button>
-
+          <Link href="/accounts">
+            <Button variant="ghost" size="icon" className="text-stone-600">
+              <User className="h-5 w-5" />
+            </Button>
+          </Link>
           <Button
             variant="ghost"
             size="icon"

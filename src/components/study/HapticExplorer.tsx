@@ -77,8 +77,8 @@ export function HapticExplorer() {
                 className="absolute inset-0 rounded-[4rem] overflow-hidden"
               >
                 <Image
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   fill
-                  sizes=""
                   src={active.texture}
                   className="w-full h-full object-cover"
                   alt={active.name}
