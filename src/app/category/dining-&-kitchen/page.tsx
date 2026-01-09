@@ -1,3 +1,4 @@
+import { ComfortDiagnostic } from "@/components/dining/ComfortDiagnostic";
 import { DiningClientUI } from "@/components/dining/DiningClientUI";
 import { LightingVisualizer } from "@/components/dining/LightingVisualizer";
 import { TableSizeGuide } from "@/components/dining/TableSizeGuide";
@@ -41,6 +42,7 @@ export default function DiningPage() {
       <DiningClientUI />
       <TableSizeGuide />
       <LightingVisualizer />
+      <ComfortDiagnostic />
       <MaterialLab />
     </main>
   );
