@@ -29,7 +29,7 @@ export function CategoryBar() {
   };
 
   return (
-    <nav className="w-full border-b bg-white/70 backdrop-blur-md sticky top-0 z-50">
+    <nav className="w-full border-b bg-white/70 backdrop-blur-md  top-0 z-50">
       <div className="container mx-auto px-4 py-4 md:py-6">
         <motion.div
           variants={containerVariants}

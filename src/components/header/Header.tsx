@@ -48,7 +48,7 @@ const Header = () => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     if (isSearchOpen) setIsSearchOpen(false);
     if (isOpen) setIsOpen(false);
-  }, [pathname]);
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md">
@@ -121,7 +121,7 @@ const Header = () => {
                             "text-base font-medium px-4 py-3 rounded-2xl transition-all",
                             pathname === link.href
                               ? "bg-stone-900 text-white shadow-lg"
-                              : "text-stone-600 hover:bg-stone-50"
+                              : "text-stone-600 hover:bg-stone-50",
                           )}
                         >
                           {link.name}
@@ -136,13 +136,13 @@ const Header = () => {
                         {CATEGORIES.map((cat) => (
                           <Link
                             key={cat.name}
-                            href={`/categories/${cat.slug}`}
+                            href={`/category/${cat.slug}`}
                             onClick={handleNavClick}
                             className={cn(
                               "flex items-center gap-4 p-2 rounded-2xl transition-all border",
-                              pathname === `/categories/${cat.slug}`
+                              pathname === `/category/${cat.slug}`
                                 ? "border-stone-200 bg-stone-50"
-                                : "border-transparent hover:bg-stone-50"
+                                : "border-transparent hover:bg-stone-50",
                             )}
                           >
                             <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-xl border border-stone-100 shadow-sm">
@@ -187,7 +187,7 @@ const Header = () => {
                   "relative py-2 transition-colors",
                   pathname === link.href
                     ? "text-stone-900"
-                    : "text-stone-400 hover:text-stone-900"
+                    : "text-stone-400 hover:text-stone-900",
                 )}
               >
                 {link.name}

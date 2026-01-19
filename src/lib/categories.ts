@@ -19,7 +19,7 @@ export const CATEGORIES = [
   },
   {
     name: "Dining & Kitchen",
-    slug: "dining",
+    slug: "diningkitchen",
     image:
       "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=100&h=100&fit=crop",
   },
@@ -50,7 +50,7 @@ export const CATEGORIES = [
   },
   {
     name: "Sofa",
-    slug: "Sofa",
+    slug: "sofa",
     image:
       "https://images.unsplash.com/photo-1594620302200-9a762244a156?w=100&h=100&fit=crop",
   },
