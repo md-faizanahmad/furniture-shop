@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react"; // 1. Added useState
+import React, { useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -10,7 +10,6 @@ import { Button } from "@/components/ui/button";
 import { DEALS_PRODUCTS } from "@/lib/deals-data";
 
 export function DealsOfTheWeek() {
-  // 2. State to manage active category
   const [activeTab, setActiveTab] = useState("All");
 
   const categories = [
@@ -32,7 +31,6 @@ export function DealsOfTheWeek() {
             </h2>
           </div>
 
-          {/* 3. Controlled Tabs Component */}
           <Tabs
             defaultValue="All"
             value={activeTab}
@@ -53,22 +51,23 @@ export function DealsOfTheWeek() {
           </Tabs>
         </div>
 
-        {/* 4. Filtered Content Area */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
+        {/* Filtered Content Area with Mobile Swipe */}
+        {/* CHANGE: Added flex-nowrap, overflow-x-auto, and snap-x utilities for mobile */}
+        <div className="flex flex-nowrap overflow-x-auto gap-6 pb-8 snap-x snap-mandatory no-scrollbar md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-10 md:overflow-visible md:pb-0">
           <AnimatePresence mode="popLayout">
             {DEALS_PRODUCTS.filter(
-              (p) => activeTab === "All" || p.category === activeTab
+              (p) => activeTab === "All" || p.category === activeTab,
             ).map((product) => (
               <motion.div
-                key={`${activeTab}-${product.id}`} // Unique key per tab for better animation
+                key={`${activeTab}-${product.id}`}
                 layout
-                initial={{ opacity: 0, scale: 0.9, y: 10 }}
-                animate={{ opacity: 1, scale: 1, y: 0 }}
-                exit={{ opacity: 0, scale: 0.9, y: 10 }}
-                transition={{ duration: 0.4, ease: [0.19, 1, 0.22, 1] }}
-                className="group relative"
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.9 }}
+                transition={{ duration: 0.4 }}
+                // CHANGE: Added min-w and snap-align for mobile cards
+                className="group relative min-w-70 sm:min-w-0 snap-center shrink-0"
               >
-                {/* ... Image Container (Same as your previous code) ... */}
                 <div className="relative cursor-pointer aspect-3/4 overflow-hidden rounded-[2rem] bg-stone-100">
                   <Badge className="absolute top-4 left-4 z-30 bg-white/90 backdrop-blur-md text-stone-900 border-none shadow-sm rounded-full px-4 py-1 text-[10px] font-bold tracking-widest">
                     {product.discount}
@@ -78,26 +77,26 @@ export function DealsOfTheWeek() {
                     alt={product.name}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
-                    sizes="(max-width: 768px) 100vw, 25vw"
+                    sizes="(max-width: 768px) 280px, 25vw"
                   />
-                  <div className="absolute inset-x-0 bottom-0 z-20 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-[cubic-bezier(0.23,1,0.32,1)]">
+
+                  {/* Action Buttons (Hidden on mobile touch by default, shows on group-hover) */}
+                  <div className="absolute inset-x-0 bottom-0 z-20 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
                     <div className="flex gap-2 w-full bg-white/90 backdrop-blur-xl p-2 rounded-2xl shadow-xl border border-white/20">
-                      <Button className="flex-1 cursor-pointer rounded-xl bg-stone-900 text-white hover:bg-stone-800 h-10 md:h-11 text-[10px] md:text-xs uppercase tracking-tighter">
-                        <ShoppingCart className="mr-2 h-3.5 w-3.5 md:h-4 md:w-4" />{" "}
-                        Add to Cart
+                      <Button className="flex-1 rounded-xl bg-stone-900 text-white h-10 text-[10px] uppercase">
+                        <ShoppingCart className="mr-2 h-3.5 w-3.5" /> Add
                       </Button>
                       <Button
                         variant="outline"
                         size="icon"
-                        className="rounded-xl cursor-pointer h-10 w-10 md:h-11 md:w-11 border-stone-200 hover:bg-stone-100"
+                        className="rounded-xl h-10 w-10"
                       >
-                        <Eye className="h-4 w-4 text-stone-700" />
+                        <Eye className="h-4 w-4" />
                       </Button>
                     </div>
                   </div>
                 </div>
 
-                {/* Info Area */}
                 <div className="mt-6 flex justify-between items-start px-1">
                   <div>
                     <p className="text-[10px] uppercase tracking-[0.2em] text-stone-400 font-bold mb-1">

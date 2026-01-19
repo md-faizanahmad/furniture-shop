@@ -227,18 +227,18 @@ const Header = () => {
             <Button
               variant="ghost"
               size="icon"
-              className="hidden sm:flex text-stone-600"
+              className=" sm:flex text-stone-600"
             >
               <Store className="h-5 w-5" />
             </Button>
           </Link>
 
-          <Link href="/accounts">
+          {/* <Link href="/accounts">
             <Button variant="ghost" size="icon" className="text-stone-600">
               <User className="h-5 w-5" />
             </Button>
-          </Link>
-          <Button
+          </Link> */}
+          {/* <Button
             variant="ghost"
             size="icon"
             className="relative group text-stone-600"
@@ -247,7 +247,7 @@ const Header = () => {
             <span className="absolute top-1 right-1 flex h-4 w-4 items-center justify-center rounded-full bg-stone-900 text-[9px] font-bold text-white">
               0
             </span>
-          </Button>
+          </Button> */}
         </div>
       </div>
     </header>

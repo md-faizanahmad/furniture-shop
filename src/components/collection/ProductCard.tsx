@@ -26,7 +26,7 @@ export function ProductCard({
       className="group relative"
     >
       {/* Image Container */}
-      <div className="relative aspect-3/4 overflow-hidden rounded-[2.5rem] bg-stone-100 shadow-sm">
+      <div className="relative  aspect-3/4 overflow-hidden rounded-[2.5rem] bg-stone-100 shadow-sm">
         <Image
           src={product.image}
           alt={product.name}

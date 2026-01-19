@@ -1,9 +1,11 @@
 import { CollectionsClientUI } from "@/components/collection/CollectionsClientUI";
+import { Hero } from "@/components/hero/Hero";
 import { COLLECTIONS_DATA } from "@/lib/store-data";
 
 export default function AllCollectionsPage() {
   return (
     <main className="bg-[#FAF9F6] min-h-screen pb-20">
+      <Hero />
       <section className="pt-32 pb-20 px-6 text-center">
         <div className="container mx-auto">
           <div>

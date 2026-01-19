@@ -5,6 +5,7 @@ import Header from "@/components/header/Header";
 import Script from "next/script";
 import { CategoryBar } from "@/components/header/CategoryBar";
 import Footer from "@/components/footer/Footer";
+import { ScrollToTop } from "@/shared/ScrollToTop";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,6 +36,7 @@ export default function RootLayout({
         <CategoryBar />
         {children}
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );
