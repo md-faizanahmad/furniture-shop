@@ -165,7 +165,7 @@ export default function Footer() {
           <div className="flex flex-wrap justify-center md:justify-start gap-6 md:gap-8 text-[9px] font-bold uppercase tracking-[0.2em] text-stone-600">
             {/* --- YOUR NAME ADDED HERE --- */}
             <Link
-              href="mdfaizanahmad.in"
+              href="https://mdfaizanahmad.in"
               className="hover:text-white transition-colors border-l border-stone-800 pl-8 hidden md:block"
             >
               Design by <span className="text-stone-400">Md Faizan Ahmad</span>
@@ -176,7 +176,7 @@ export default function Footer() {
           <p className="md:hidden text-[9px] font-bold uppercase tracking-[0.2em] text-stone-600">
             Design by{" "}
             <span className="text-stone-400 font-bold">
-              <Link href="mdfaizanahmad.in">Md Faizan Ahmad</Link>
+              <Link href="https://mdfaizanahmad.in/">Md Faizan Ahmad</Link>
             </span>
           </p>
 
