@@ -148,6 +148,22 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-stone-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[11px] font-medium uppercase tracking-widest text-stone-500">
           <p>© 2026 LUMEN STUDIO. All Rights Reserved.</p>
+          <div className="flex flex-wrap justify-center md:justify-start gap-6 md:gap-8 text-[9px] font-bold uppercase tracking-[0.2em] text-stone-600">
+            {/* --- YOUR NAME ADDED HERE --- */}
+            <Link
+              href="https://mdfaizanahmad.in"
+              className="hover:text-white transition-colors  pl-8 hidden md:block"
+            >
+              Design by <span className="text-stone-400">Md Faizan Ahmad</span>
+            </Link>
+            <p className="md:hidden text-[9px] font-bold uppercase tracking-[0.2em] text-stone-600">
+              Design by{" "}
+              <span className="text-stone-400 font-bold">
+                <Link href="mdfaizanahmad.in">Md Faizan Ahmad</Link>
+              </span>
+            </p>
+          </div>
+
           <div className="flex gap-8">
             <Link href="#" className="hover:text-white transition-colors">
               Terms
@@ -161,32 +177,6 @@ export default function Footer() {
           </div>
         </div>
         {/* Bottom Bar */}
-        <div className="border-t border-stone-800/50 pt-12 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex flex-wrap justify-center md:justify-start gap-6 md:gap-8 text-[9px] font-bold uppercase tracking-[0.2em] text-stone-600">
-            {/* --- YOUR NAME ADDED HERE --- */}
-            <Link
-              href="https://mdfaizanahmad.in"
-              className="hover:text-white transition-colors border-l border-stone-800 pl-8 hidden md:block"
-            >
-              Design by <span className="text-stone-400">Md Faizan Ahmad</span>
-            </Link>
-          </div>
-
-          {/* Design Credit for Mobile - visible only on small screens */}
-          <p className="md:hidden text-[9px] font-bold uppercase tracking-[0.2em] text-stone-600">
-            Design by{" "}
-            <span className="text-stone-400 font-bold">
-              <Link href="https://mdfaizanahmad.in/">Md Faizan Ahmad</Link>
-            </span>
-          </p>
-
-          <div className="flex items-center gap-2">
-            <span className="h-1.5 w-1.5 rounded-full bg-green-500 animate-pulse" />
-            <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-stone-500">
-              Operational: India
-            </span>
-          </div>
-        </div>
       </div>
     </footer>
   );

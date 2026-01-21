@@ -1,6 +1,8 @@
 // import { Hero } from "@/components/hero/Hero";
 import { DealsOfTheWeek } from "@/components/home/DealsOfTheWeek";
 import { FeaturedCategories } from "@/components/home/FeaturedCategories";
+import { RoomConfigurator } from "@/components/living-room/RoomConfigurator";
+import CollectionStory from "@/components/story/CollectionStory";
 import { LogoMarquee } from "@/shared/LogoMarquee";
 import { VideoHero } from "@/shared/VideoHero";
 
@@ -17,6 +19,8 @@ export default function Home() {
       />
       <FeaturedCategories />
       <DealsOfTheWeek />
+      <CollectionStory />
+      <RoomConfigurator />
       <LogoMarquee />
       {/* Product sections will go here */}
     </div>
