@@ -10,7 +10,7 @@ export default function Home() {
       {/* <Hero /> */}
       <VideoHero
         videoUrl="Furniture_Shop_Video_Generation.mp4"
-        posterUrl="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=100&h=100&fit=crop"
+        posterUrl="placeholder_hero.webp"
         title="Sculpting With Light"
         subtitle="Experience the intersection of architectural precision and atmospheric glow."
         ctaText="Explore Collection"

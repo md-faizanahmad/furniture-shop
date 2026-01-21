@@ -160,6 +160,33 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+        {/* Bottom Bar */}
+        <div className="border-t border-stone-800/50 pt-12 flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="flex flex-wrap justify-center md:justify-start gap-6 md:gap-8 text-[9px] font-bold uppercase tracking-[0.2em] text-stone-600">
+            {/* --- YOUR NAME ADDED HERE --- */}
+            <Link
+              href="mdfaizanahmad.in"
+              className="hover:text-white transition-colors border-l border-stone-800 pl-8 hidden md:block"
+            >
+              Design by <span className="text-stone-400">Md Faizan Ahmad</span>
+            </Link>
+          </div>
+
+          {/* Design Credit for Mobile - visible only on small screens */}
+          <p className="md:hidden text-[9px] font-bold uppercase tracking-[0.2em] text-stone-600">
+            Design by{" "}
+            <span className="text-stone-400 font-bold">
+              <Link href="mdfaizanahmad.in">Md Faizan Ahmad</Link>
+            </span>
+          </p>
+
+          <div className="flex items-center gap-2">
+            <span className="h-1.5 w-1.5 rounded-full bg-green-500 animate-pulse" />
+            <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-stone-500">
+              Operational: India
+            </span>
+          </div>
+        </div>
       </div>
     </footer>
   );
