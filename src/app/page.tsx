@@ -2,8 +2,10 @@
 import { DealsOfTheWeek } from "@/components/home/DealsOfTheWeek";
 import { FeaturedCategories } from "@/components/home/FeaturedCategories";
 import { RoomConfigurator } from "@/components/living-room/RoomConfigurator";
+import ShopLook from "@/components/shop-the-look/ShopLook";
 import CollectionStory from "@/components/story/CollectionStory";
-import { LogoMarquee } from "@/shared/LogoMarquee";
+// import { LogoMarquee } from "@/shared/LogoMarquee";
+import TrustBar from "@/shared/TrustBar";
 import { VideoHero } from "@/shared/VideoHero";
 
 export default function Home() {
@@ -20,8 +22,10 @@ export default function Home() {
       <FeaturedCategories />
       <DealsOfTheWeek />
       <CollectionStory />
+      <ShopLook />
       <RoomConfigurator />
-      <LogoMarquee />
+      <TrustBar />
+      {/* <LogoMarquee /> */}
       {/* Product sections will go here */}
     </div>
   );

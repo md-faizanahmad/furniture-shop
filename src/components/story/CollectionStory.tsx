@@ -1,6 +1,5 @@
 import { CollectionStoryClient } from "./CollectionStoryClient";
 
-// This would typically come from your database or CMS
 const STORY_DATA = [
   {
     id: "01",
@@ -26,7 +25,7 @@ const STORY_DATA = [
 
 export default function CollectionStory() {
   return (
-    <section className="bg-[#F8F7F4] overflow-hidden">
+    <section className="bg-[#F8F7F4] overflow-hidden py-10 md:py-20">
       {STORY_DATA.map((story, index) => (
         <CollectionStoryClient key={story.id} story={story} index={index} />
       ))}
