@@ -1,13 +1,15 @@
 <div align="center">
+
+  <!-- HERO / COVER -->
   <img 
-    src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442154/studio-desktop_ka1ru2.png" 
-    alt="Lumen Studio Website Preview"
+    src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442154/studio-desktop_ka1ru2.png"
+    alt="Lumen Studio Desktop Preview"
     width="100%"
-    style="border-radius:20px; margin-bottom:20px;"
+    style="border-radius:24px; margin-bottom:24px;"
   />
 
-  <h1>Lumen Studio</h1>
-  <p><b>Modern Furniture & Interior Design Website (Desktop + Mobile)</b></p>
+  <h1>LUMEN STUDIO</h1>
+  <p><b>Furniture & Interior Design Website – Desktop & Mobile</b></p>
 
   <p>
     <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js"/>
@@ -15,40 +17,75 @@
     <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css"/>
     <img src="https://img.shields.io/badge/Framer_Motion-UI_Animation-FF69B4?style=for-the-badge&logo=framer"/>
   </p>
+
 </div>
 
 ---
 
 ## 🧠 Project Overview
 
-**Lumen Studio** is a responsive, performance-focused website built for **furniture and interior design brands**.  
-The goal was simple:  
-👉 **Showcase premium products clearly, load fast on mobile, and convert visitors into enquiries.**
+**Lumen Studio** is a responsive, performance-optimized website built for  
+**furniture brands, interior designers, and premium studios**.
 
-This project is designed as:
-- A **real client-ready website**
-- A **frontend case study for interviews**
-- A **performance-first Next.js application**
+The focus:
+- Clear product presentation  
+- Smooth UI interactions  
+- Fast load times on mobile  
+- SEO-friendly structure  
+
+This project is positioned as both:
+- ✅ **Client-ready website**
+- ✅ **Frontend interview case study**
 
 ---
 
-## 📱 Responsive Design (Desktop & Mobile)
+## 🖥️ Desktop Experience
 
-<table width="100%">
+<div align="center">
+  <img 
+    src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442153/studio_v8chxa.png"
+    alt="Desktop Home Layout"
+    width="90%"
+    style="border-radius:16px; border:1px solid #eee; margin-bottom:16px;"
+  />
+
+  <img 
+    src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442155/studio-cards_ko7ucl.png"
+    alt="Product Cards Layout"
+    width="90%"
+    style="border-radius:16px; border:1px solid #eee;"
+  />
+</div>
+
+---
+
+## 📱 Mobile Experience
+
+<table width="100%" cellspacing="16">
   <tr>
-    <td width="70%" align="center">
-      <b>Desktop Layout</b><br/>
+    <td width="33%" align="center">
+      <b>Home</b><br/>
       <img 
-        src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442153/studio_v8chxa.png"
-        alt="Desktop View"
+        src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442078/Mobile-Home_jvfylv.png"
+        alt="Mobile Home"
         style="border-radius:12px; border:1px solid #eee;"
       />
     </td>
-    <td width="30%" align="center">
-      <b>Mobile Layout</b><br/>
+
+    <td width="33%" align="center">
+      <b>Navigation</b><br/>
       <img 
-        src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442078/Mobile-Home_jvfylv.png"
-        alt="Mobile View"
+        src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442077/Mobile-Nav_suw4lz.png"
+        alt="Mobile Navigation"
+        style="border-radius:12px; border:1px solid #eee;"
+      />
+    </td>
+
+    <td width="33%" align="center">
+      <b>Content Page</b><br/>
+      <img 
+        src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442077/Mobile-Page_jmhp0s.png"
+        alt="Mobile Page"
         style="border-radius:12px; border:1px solid #eee;"
       />
     </td>
@@ -57,62 +94,49 @@ This project is designed as:
 
 ---
 
-## ⚡ Performance & SEO
+## 🧾 Footer & Layout Completion
 
-- Lighthouse scores consistently **95+**
-- Optimized **Largest Contentful Paint (LCP)**
-- Mobile-first layout with reduced layout shift
-- SEO-friendly structure using **Next.js App Router**
+<div align="center">
+  <img 
+    src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442153/studio-footer_lu6mzx.png"
+    alt="Footer Layout"
+    width="100%"
+    style="border-radius:20px; margin-top:24px;"
+  />
+</div>
 
-**Why this matters:**  
-Clients want fast websites.  
-Interviewers want proof you understand performance, not just UI.
+---
+
+## ⚡ Performance & SEO Focus
+
+- Lighthouse score **95+**
+- Optimized LCP using modern image formats
+- Mobile-first responsive layout
+- SEO-ready structure using Next.js App Router
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Core
-- **Next.js 15 (App Router)** – Server Components + SEO
-- **TypeScript (Strict)** – Safe and scalable code
-- **Tailwind CSS** – Clean, responsive layouts
-
-### UI & Motion
-- **Framer Motion** – Smooth, lightweight animations
-- Scroll-based transitions (no heavy JS libraries)
-
-### Optimization
-- `next/image` with AVIF / WebP
-- Priority loading for hero images
-- Minimal client-side JavaScript
+**Framework:** Next.js 15 (App Router)  
+**Language:** TypeScript (strict mode)  
+**Styling:** Tailwind CSS  
+**Animations:** Framer Motion  
+**Images:** next/image (AVIF & WebP)
 
 ---
 
-## ✨ Key Features
+## 👨‍💻 My Role (Interview Important)
 
-- Product showcase layout for furniture & interiors
-- Smooth page transitions and scroll animations
-- Mobile-optimized navigation
-- Clean card-based product sections
-- Designed to scale for:
-  - E-commerce
-  - Catalogue websites
-  - Interior studios
-  - Furniture brands
-
----
-
-## 👨‍💻 What I Did (Important for Interviews)
-
-- Designed the complete UI layout (desktop + mobile)
-- Implemented responsive structure from scratch
-- Handled performance optimization
+- Designed full UI (desktop + mobile)
 - Built reusable components
-- Focused on real-world client usability
+- Implemented responsive layouts
+- Optimized performance & loading
+- Focused on real-world usability, not demo UI
 
 ---
 
 <div align="center">
-  <p><b>Built & Engineered by Md Faizan Ahmad</b></p>
-  <p><i>Frontend Case Study — Real UI, Real Performance, Real Use Case</i></p>
+  <p><b>Built by Md Faizan Ahmad</b></p>
+  <p><i>Frontend Case Study — Clean UI, Fast Performance, Real Use Case</i></p>
 </div>
