@@ -33,13 +33,13 @@ Optimized to exceed Industry Standards for Core Web Vitals:
 
 <table width="100%">
   <tr>
-    <td width="50%" align="center">
+    <td width="70%" align="center">
       <b>Editorial Desktop</b><br/>
-      <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=800" alt="Desktop View" style="border-radius: 12px; border: 1px solid #eee;" />
+      <img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442153/studio_v8chxa.png" alt="Desktop View" style="border-radius: 12px; border: 1px solid #eee;" />
     </td>
-    <td width="50%" align="center">
+    <td width="30%" align="center">
       <b>Touch-Optimized Mobile</b><br/>
-      <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=400" alt="Mobile View" style="border-radius: 12px; border: 1px solid #eee;" />
+      <img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442078/Mobile-Home_jvfylv.png" alt="Mobile View" style="border-radius: 12px; border: 1px solid #eee;" />
     </td>
   </tr>
 </table>
