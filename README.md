@@ -1,6 +1,7 @@
 <div align="center">
+  <p>Header</p>
   <img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442154/studio-desktop_ka1ru2.png" alt="Lumen Studio Header" width="100%" style="border-radius: 24px; margin-bottom: 20px;" />
-  
+  <p>Footer</p>
   <h1>🏛️ LUMEN STUDIO</h1>
   <p><b>Architectural E-Commerce Architecture for Luxury Interior Design</b></p>
 
@@ -11,7 +12,8 @@
     <img src="https://img.shields.io/badge/Framer_Motion-Smooth-FF69B4?style=for-the-badge&logo=framer" />
   </p>
 </div>
-
+ <p>Footer</p>
+  <img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442153/studio-footer_lu6mzx.png" alt="Lumen Studio Header" width="100%" style="border-radius: 24px; margin-bottom: 20px;" />
 ---
 
 ### 🏛️ Architectural Vision
