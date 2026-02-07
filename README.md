@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200" alt="Lumen Studio Header" width="100%" style="border-radius: 24px; margin-bottom: 20px;" />
+  <img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442154/studio-desktop_ka1ru2.png" alt="Lumen Studio Header" width="100%" style="border-radius: 24px; margin-bottom: 20px;" />
   
   <h1>🏛️ LUMEN STUDIO</h1>
   <p><b>Architectural E-Commerce Architecture for Luxury Interior Design</b></p>
