@@ -1,85 +1,118 @@
 <div align="center">
+  <img 
+    src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442154/studio-desktop_ka1ru2.png" 
+    alt="Lumen Studio Website Preview"
+    width="100%"
+    style="border-radius:20px; margin-bottom:20px;"
+  />
 
-  <img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442154/studio-desktop_ka1ru2.png" alt="Lumen Studio Header" width="100%" style="border-radius: 24px; margin-bottom: 20px;" />
-
-  <h1>🏛️ LUMEN STUDIO</h1>
-  <p><b>Architectural E-Commerce Architecture for Luxury Interior Design</b></p>
+  <h1>Lumen Studio</h1>
+  <p><b>Modern Furniture & Interior Design Website (Desktop + Mobile)</b></p>
 
   <p>
-    <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" />
-    <img src="https://img.shields.io/badge/TypeScript-Ready-blue?style=for-the-badge&logo=typescript" />
-    <img src="https://img.shields.io/badge/Tailwind-Design-38B2AC?style=for-the-badge&logo=tailwind-css" />
-    <img src="https://img.shields.io/badge/Framer_Motion-Smooth-FF69B4?style=for-the-badge&logo=framer" />
+    <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js"/>
+    <img src="https://img.shields.io/badge/TypeScript-Strict-blue?style=for-the-badge&logo=typescript"/>
+    <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css"/>
+    <img src="https://img.shields.io/badge/Framer_Motion-UI_Animation-FF69B4?style=for-the-badge&logo=framer"/>
   </p>
 </div>
 
-  <img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442153/studio-footer_lu6mzx.png" alt="Lumen Studio Header" width="100%" style="border-radius: 24px; margin-bottom: 20px;" />
 ---
 
-### 🏛️ Architectural Vision
-**Lumen Studio** is a high-fidelity digital flagship designed for premium furniture brands. The project core revolves around the "Atmospheric Experience"—bridging the gap between physical craftsmanship and digital interaction. It is engineered to deliver a "Retina-grade" visual experience while maintaining elite performance metrics.
+## 🧠 Project Overview
 
-### 🚀 Performance Engineering (Lighthouse Metrics)
-Optimized to exceed Industry Standards for Core Web Vitals:
-* **Performance:** 98% (LCP optimized via AVIF & Priority Preloading)
-* **Accessibility:** 100% (ARIA compliant & Semantic HTML5)
-* **Best Practices:** 100% (Modern Image Formats & Secure Headers)
-* **SEO:** 100% (JSON-LD Structured Data & Server-Side Rendering)
+**Lumen Studio** is a responsive, performance-focused website built for **furniture and interior design brands**.  
+The goal was simple:  
+👉 **Showcase premium products clearly, load fast on mobile, and convert visitors into enquiries.**
+
+This project is designed as:
+- A **real client-ready website**
+- A **frontend case study for interviews**
+- A **performance-first Next.js application**
 
 ---
 
-### 📱 Responsive Strategy
-
+## 📱 Responsive Design (Desktop & Mobile)
 
 <table width="100%">
   <tr>
     <td width="70%" align="center">
-      <b>Editorial Desktop</b><br/>
-      <img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442153/studio_v8chxa.png" alt="Desktop View" style="border-radius: 12px; border: 1px solid #eee;" />
+      <b>Desktop Layout</b><br/>
+      <img 
+        src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442153/studio_v8chxa.png"
+        alt="Desktop View"
+        style="border-radius:12px; border:1px solid #eee;"
+      />
     </td>
     <td width="30%" align="center">
-      <b>Touch-Optimized Mobile</b><br/>
-      <img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442078/Mobile-Home_jvfylv.png" alt="Mobile View" style="border-radius: 12px; border: 1px solid #eee;" />
+      <b>Mobile Layout</b><br/>
+      <img 
+        src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442078/Mobile-Home_jvfylv.png"
+        alt="Mobile View"
+        style="border-radius:12px; border:1px solid #eee;"
+      />
     </td>
   </tr>
 </table>
-<img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442078/Mobile-Home_jvfylv.png" alt="Mobile View" style="border-radius: 12px; border: 1px solid #eee;" />
-<img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442077/Mobile-Nav_suw4lz.png" alt="Mobile View" style="border-radius: 12px; border: 1px solid #eee;" />
-
-<img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442155/studio-cards_ko7ucl.pngg" alt="Mobile View" style="border-radius: 12px; border: 1px solid #eee;" />
----
-<img src=https://res.cloudinary.com/dyefyrszz/image/upload/v1770442077/Mobile-Page_jmhp0s.png" alt="Mobile View" style="border-radius: 12px; border: 1px solid #eee;" />
-### 🛠️ Technical Stack & Implementation
-
-#### **Core Framework**
-* **Next.js 15 (App Router):** Leveraging Server Components for reduced client-side JavaScript execution.
-* **TypeScript:** Type-safe architecture ensuring scalable and maintainable codebases.
-* **Tailwind CSS:** Utility-first styling for precise architectural spacing and responsive layouts.
-
-#### **Animation & Interaction Engine**
-* **Framer Motion:** Implementation of Spring-physics for "natural" motion weight.
-* **Parallax Story Engine:** Scroll-synced transformations mapped to container offsets for 3D depth.
-* **Intersection Observer API:** Lazy-triggered reveal animations for improved CPU efficiency.
-
-#### **Asset Optimization**
-* **Next/Image:** Dynamic conversion to **AVIF** and **WebP** formats.
-* **LCP Preloading:** Resource hinting for critical hero assets to eliminate render-blocking.
-* **Edge Delivery:** Optimized for global distribution with low Time-to-First-Byte (TTFB).
 
 ---
 
-### 💎 Signature Experience Features
+## ⚡ Performance & SEO
 
-* **Atmosphere Simulator:** A real-time configuration tool allowing users to toggle lighting environments (Day/Night) and material finishes.
-* **Interactive Hotspots:** "Shop the Look" lifestyle imagery with smart discovery points that map 2D coordinates to product metadata.
-* **Collection Storytelling:** Alternating editorial sections that split server-side text delivery with client-side parallax visuals.
-* **Luxury Privilege Swipe:** A custom-engineered horizontal scroll-snap carousel for mobile product discovery, replacing traditional vertical fatigue.
-* **Curated Navigation:** Context-aware sticky headers with dynamic transparency based on scroll-depth thresholds.
+- Lighthouse scores consistently **95+**
+- Optimized **Largest Contentful Paint (LCP)**
+- Mobile-first layout with reduced layout shift
+- SEO-friendly structure using **Next.js App Router**
+
+**Why this matters:**  
+Clients want fast websites.  
+Interviewers want proof you understand performance, not just UI.
+
+---
+
+## 🛠️ Tech Stack
+
+### Core
+- **Next.js 15 (App Router)** – Server Components + SEO
+- **TypeScript (Strict)** – Safe and scalable code
+- **Tailwind CSS** – Clean, responsive layouts
+
+### UI & Motion
+- **Framer Motion** – Smooth, lightweight animations
+- Scroll-based transitions (no heavy JS libraries)
+
+### Optimization
+- `next/image` with AVIF / WebP
+- Priority loading for hero images
+- Minimal client-side JavaScript
+
+---
+
+## ✨ Key Features
+
+- Product showcase layout for furniture & interiors
+- Smooth page transitions and scroll animations
+- Mobile-optimized navigation
+- Clean card-based product sections
+- Designed to scale for:
+  - E-commerce
+  - Catalogue websites
+  - Interior studios
+  - Furniture brands
+
+---
+
+## 👨‍💻 What I Did (Important for Interviews)
+
+- Designed the complete UI layout (desktop + mobile)
+- Implemented responsive structure from scratch
+- Handled performance optimization
+- Built reusable components
+- Focused on real-world client usability
 
 ---
 
 <div align="center">
-  <p><b>Engineered for Design Excellence by [Your Name]</b></p>
-  <p><i>Technical Case Study: Balancing 100vw Visuals with Sub-Second Load Times.</i></p>
-  <a href="https://yourportfolio.com">Portfolio</a> • <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+  <p><b>Built & Engineered by Md Faizan Ahmad</b></p>
+  <p><i>Frontend Case Study — Real UI, Real Performance, Real Use Case</i></p>
 </div>
