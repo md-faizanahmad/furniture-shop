@@ -46,14 +46,14 @@ This project is positioned as both:
     src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442153/studio_v8chxa.png"
     alt="Desktop Home Layout"
     width="90%"
-    style="border-radius:16px; border:1px solid #eee; margin-bottom:16px;"
+    style="border-radius:16px; ; margin-bottom:16px;"
   />
 
   <img 
     src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442155/studio-cards_ko7ucl.png"
     alt="Product Cards Layout"
     width="90%"
-    style="border-radius:16px; border:1px solid #eee;"
+    style="border-radius:16px; ;"
   />
 </div>
 
@@ -68,25 +68,23 @@ This project is positioned as both:
       <img 
         src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442078/Mobile-Home_jvfylv.png"
         alt="Mobile Home"
-        style="border-radius:12px; border:1px solid #eee;"
+        style="border-radius:12px;;"
       />
     </td>
-
     <td width="33%" align="center">
       <b>Navigation</b><br/>
       <img 
         src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442077/Mobile-Nav_suw4lz.png"
         alt="Mobile Navigation"
-        style="border-radius:12px; border:1px solid #eee;"
+        style="border-radius:12px; ;"
       />
     </td>
-
     <td width="33%" align="center">
       <b>Content Page</b><br/>
       <img 
         src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442077/Mobile-Page_jmhp0s.png"
         alt="Mobile Page"
-        style="border-radius:12px; border:1px solid #eee;"
+        style="border-radius:12px; ;"
       />
     </td>
   </tr>
