@@ -45,8 +45,10 @@ Optimized to exceed Industry Standards for Core Web Vitals:
 </table>
 <img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442078/Mobile-Home_jvfylv.png" alt="Mobile View" style="border-radius: 12px; border: 1px solid #eee;" />
 <img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442077/Mobile-Nav_suw4lz.png" alt="Mobile View" style="border-radius: 12px; border: 1px solid #eee;" />
----
 
+<img src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442155/studio-cards_ko7ucl.pngg" alt="Mobile View" style="border-radius: 12px; border: 1px solid #eee;" />
+---
+<img src=https://res.cloudinary.com/dyefyrszz/image/upload/v1770442077/Mobile-Page_jmhp0s.png" alt="Mobile View" style="border-radius: 12px; border: 1px solid #eee;" />
 ### 🛠️ Technical Stack & Implementation
 
 #### **Core Framework**
