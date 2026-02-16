@@ -3,21 +3,20 @@ import { ShopLookClient } from "./ShopLookClient";
 const LOOK_DATA = {
   title: "The Solstice Suite",
   description: "A study in balanced light and organic geometry.",
-  image:
-    "https://images.unsplash.com/photo-1758448755969-8791367cf5c5?q=80&w=1931&auto=format&fit=crop",
+  image: "/The-SolsticeSuite.png",
   hotspots: [
     {
       id: "p1",
       x: 35,
-      y: 60,
+      y: 65,
       name: "Nizam Sofa",
       price: "₹1,85,000",
       href: "/products/nizam-sofa",
     },
     {
       id: "p2",
-      x: 65,
-      y: 45,
+      x: 55, // leftright
+      y: 19, // topbottom
       name: "Halo Pendant",
       price: "₹28,500",
       href: "/products/halo-pendant",

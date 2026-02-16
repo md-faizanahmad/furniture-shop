@@ -24,12 +24,29 @@ export function ShopLookClient({ data }: { data: ShopLookData }) {
   const [activeId, setActiveId] = useState<string | null>(null);
 
   return (
-    <div className="relative aspect-16/10 md:aspect-21/9 rounded-[3rem] overflow-hidden shadow-2xl group">
+    <div
+      className="
+    relative
+    w-full
+    aspect-4/5               /* mobile compact */
+    md:aspect-16/7           /* banner feel */
+    lg:aspect-16/6
+    
+    md:max-w-5xl               /* prevent full width */
+    lg:max-w-6xl
+    mx-auto                    /* center horizontally */
+
+    rounded-3xl
+    overflow-hidden
+    shadow-2xl
+    group
+  "
+    >
       <Image
         src={data.image}
         alt={data.title}
         fill
-        className="object-cover transition-transform duration-1000 group-hover:scale-105"
+        className="object-fill transition-transform duration-1000 group-hover:scale-105"
       />
 
       {data.hotspots.map((spot) => (
