@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+  <!-- HERO / COVER -->
+  <img 
+    src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442154/studio-desktop_ka1ru2.png"
+    alt="Lumen Studio Desktop Preview"
+    width="100%"
+    style="border-radius:24px; margin-bottom:24px;"
+  />
 
-First, run the development server:
+  <h1>LUMEN STUDIO</h1>
+  <p><b>Furniture & Interior Design Website – Desktop & Mobile</b></p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  <p>
+    <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js"/>
+    <img src="https://img.shields.io/badge/TypeScript-Strict-blue?style=for-the-badge&logo=typescript"/>
+    <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css"/>
+    <img src="https://img.shields.io/badge/Framer_Motion-UI_Animation-FF69B4?style=for-the-badge&logo=framer"/>
+  </p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+</div>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 Project Overview
 
-## Learn More
+**Lumen Studio** is a responsive, performance-optimized website built for  
+**furniture brands, interior designers, and premium studios**.
 
-To learn more about Next.js, take a look at the following resources:
+The focus:
+- Clear product presentation  
+- Smooth UI interactions  
+- Fast load times on mobile  
+- SEO-friendly structure  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is positioned as both:
+- ✅ **Client-ready website**
+- ✅ **Frontend interview case study**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🖥️ Desktop Experience
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<div align="center">
+  <img 
+    src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442153/studio_v8chxa.png"
+    alt="Desktop Home Layout"
+    width="90%"
+    style="border-radius:16px; ; margin-bottom:16px;"
+  />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  <img 
+    src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442155/studio-cards_ko7ucl.png"
+    alt="Product Cards Layout"
+    width="90%"
+    style="border-radius:16px; ;"
+  />
+</div>
+
+---
+
+## 📱 Mobile Experience
+
+<table width="100%" cellspacing="16">
+  <tr>
+    <td width="33%" align="center">
+      <b>Home</b><br/>
+      <img 
+        src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442078/Mobile-Home_jvfylv.png"
+        alt="Mobile Home"
+        style="border-radius:12px;;"
+      />
+    </td>
+    <td width="33%" align="center">
+      <b>Navigation</b><br/>
+      <img 
+        src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442077/Mobile-Nav_suw4lz.png"
+        alt="Mobile Navigation"
+        style="border-radius:12px; ;"
+      />
+    </td>
+    <td width="33%" align="center">
+      <b>Content Page</b><br/>
+      <img 
+        src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442077/Mobile-Page_jmhp0s.png"
+        alt="Mobile Page"
+        style="border-radius:12px; ;"
+      />
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🧾 Footer & Layout Completion
+
+<div align="center">
+  <img 
+    src="https://res.cloudinary.com/dyefyrszz/image/upload/v1770442153/studio-footer_lu6mzx.png"
+    alt="Footer Layout"
+    width="100%"
+    style="border-radius:20px; margin-top:24px;"
+  />
+</div>
+
+---
+
+## ⚡ Performance & SEO Focus
+
+- Lighthouse score **95+**
+- Optimized LCP using modern image formats
+- Mobile-first responsive layout
+- SEO-ready structure using Next.js App Router
+
+---
+
+## 🛠️ Tech Stack
+
+**Framework:** Next.js 15 (App Router)  
+**Language:** TypeScript (strict mode)  
+**Styling:** Tailwind CSS  
+**Animations:** Framer Motion  
+**Images:** next/image (AVIF & WebP)
+
+---
+
+## 👨‍💻 My Role (Interview Important)
+
+- Designed full UI (desktop + mobile)
+- Built reusable components
+- Implemented responsive layouts
+- Optimized performance & loading
+- Focused on real-world usability, not demo UI
+
+---
+
+<div align="center">
+  <p><b>Built by Md Faizan Ahmad</b></p>
+  <p><i>Frontend Case Study — Clean UI, Fast Performance, Real Use Case</i></p>
+</div>
